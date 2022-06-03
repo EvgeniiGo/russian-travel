@@ -1,0 +1,25 @@
+.lead__image {
+  width: 100%;
+  margin: 40px auto 0;
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__image {
+    width: calc(100% - ((100% - 768px)*.375));
+    margin-top: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__image {
+    width: calc(((100% - 1024px)*.21875) + (1024px - 96px));
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__image {
+    width: 984px;
+    margin-top: 64px;
+  }
+}

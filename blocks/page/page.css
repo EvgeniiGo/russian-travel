@@ -1,0 +1,9 @@
+.page {
+  background-color: #2A2C2F;
+  margin: 0 auto;
+  font-family: Inter, sans-serif;
+  color: white;
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
