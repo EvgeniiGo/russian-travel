@@ -27,7 +27,7 @@
 
 @media screen and (min-width: 1280px) {
   .place {
-    margin: 0 calc(148px + ((100% - 1280px)/2));
+    margin: 0 calc((100% - 984px)/2);
     grid-template-columns: 460px 484px;
     column-gap: 40px;
     row-gap: 48px;
